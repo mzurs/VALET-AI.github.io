@@ -7,24 +7,38 @@ We are currently overwhelmed by the sheer number of digital tools we use. From a
 ### The Solution: Valet AI—Your Sovereign Personal AI Agent.
 
 **Valet AI** is a decentralized, user-owned AI application deployed on the Internet Computer Blockchain. It is a system built to empower users with a sovereign, personal AI agent that can automate and streamline their daily digital lives. The platform’s modular architecture is designed around a core **User Agent canister**, which functions as the user's personal hub. From this hub, users can integrate specialized agents from an **Agents Marketplace** to extend functionality as they see fit.
+
+![Valet AI Overview](.//Valet-overview.png)
+
+
 The system comprises several core components that create a seamless and powerful user experience:
 
 - **The User Agent**:
   <br/>
   This is a personal agent that a user owns and controls. It has its own canister storage to securely hold user data such as images and documents, and it also manages a multi-chain wallet to store assets from various blockchains.
 
+  ![Overview of User Agent](.//Valet-user%20agent.drawio.png)
+
 - **The Crypto Agent**:
   <br/>
   A specialized agent for multi-chain financial management. This agent can interact with the ICP blockchain, transfer native Bitcoin by leveraging ICP's Direct Bitcoin Integration, and interact with the Ethereum blockchain using the EVM RPC Canister.
+
+  ![Overview of Crypto Agent](.//Valet-crypto%20agent.drawio.png)
 
 -  **The Google Agent**: 
 
     This agent automates tasks across Google's ecosystem. It can generate emails, send them to contacts using the Google People API, create and manage documents, and even sync files between a user's canister storage and their Google Drive.
 
+    ![Overview of Google Agent](.//Valet-Google%20Agent.drawio.png)
+
 - **The Social Media Agent**:
   <br/>
   This agent allows users to manage their social accounts from a single interface. It can generate content and upload it to platforms such as Facebook, Instagram, and X (formerly Twitter) by integrating with their respective APIs.
 
+  ![Overview of Social Media Agent](.//Valet-Social%20Media%20Agent.drawio.png)
+
+<br/>
+<br/>
 This modular approach allows users to customize their personal AI agent with the specific tools they need most, such as the Crypto Agent or the Social Media Agent. The platform also allows third-party developers to contribute their own AI agents to the marketplace, creating an open and extensible ecosystem.
 
 A clear user story demonstrates the practical utility of Valet AI: as a busy professional, a user wants to manage their crypto portfolio, send a follow-up email, and schedule a social media post without switching between multiple applications. The user can simply open the Valet AI application and instruct their agent, "Check the balance of my BTC wallet, draft a follow-up email to my client with the subject 'Project Update,' and schedule a post for my company's X account about our new product release." The Valet AI's User Agent then coordinates with the Crypto Agent to check the balance, the Google Agent to draft and send the email, and the Social Media Agent to create and schedule the post, all within a single conversation. The platform's on-chain architecture ensures these tasks are executed securely and transparently.
